@@ -1,0 +1,16 @@
+<svg id="lp" xmlns="http://www.w3.org/2000/svg" width="15" height="26.24" viewBox="0 0 15 26.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>logo-mh</title>
+  <g>
+    <polygon class="cls-1" points="0 18.28 0 24.41 9.6 24.41 11.4 26.24 13.23 24.41 15 24.41 15 15.48 0 18.28"/>
+    <polygon class="cls-1" points="1 9.9 1 16.65 15 14.07 15 11.27 1 9.9"/>
+    <polygon class="cls-1" points="2 8.35 2 5.85 14 3.73 14 9.64 2 8.35"/>
+    <polygon class="cls-1" points="3 3.99 3 0 12 0.74 12 2.53 3 3.99"/>
+  </g>
+</svg>

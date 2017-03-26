@@ -1,0 +1,36 @@
+<svg id="lp" xmlns="http://www.w3.org/2000/svg" width="94.85" height="94.85" viewBox="0 0 94.85 94.85">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke: #ffc936;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 7px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #910a3d;
+      }
+
+      .cls-2 {
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <title>time</title>
+  <g>
+    <circle class="cls-1" cx="47.42" cy="47.42" r="43.92"/>
+    <line class="cls-2" x1="47.44" y1="10.62" x2="47.44" y2="18.62"/>
+    <line class="cls-2" x1="47.44" y1="76.62" x2="47.44" y2="84.62"/>
+    <line class="cls-2" x1="83.94" y1="47.12" x2="75.94" y2="47.12"/>
+    <line class="cls-2" x1="18.94" y1="47.12" x2="10.94" y2="47.12"/>
+    <line class="cls-2" x1="27.23" y1="29.36" x2="48.44" y2="50.57"/>
+    <line class="cls-3" x1="59.81" y1="37.21" x2="45.66" y2="51.35"/>
+  </g>
+</svg>

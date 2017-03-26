@@ -1,0 +1,26 @@
+<svg id="lp" xmlns="http://www.w3.org/2000/svg" width="40" height="33.6" viewBox="0 0 40 33.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #989898;
+      }
+    </style>
+  </defs>
+  <title>job_01_small_mh</title>
+  <g>
+    <polygon class="cls-1" points="40 23 16.2 23 16.2 21.2 38.2 21.2 38.2 1.8 7.4 1.8 7.4 6.4 5.6 6.4 5.6 0 40 0 40 23"/>
+    <rect class="cls-1" x="1.6" y="11.6" width="14.8" height="1.4"/>
+    <rect class="cls-1" x="1.2" y="27" width="14.8" height="1.4"/>
+    <rect class="cls-1" x="7.4" y="6.4" width="32.4" height="1.4"/>
+    <circle class="cls-1" cx="8.51" cy="30.1" r="0.83"/>
+    <circle class="cls-1" cx="9.9" cy="4.2" r="0.83"/>
+    <circle class="cls-1" cx="12.52" cy="4.2" r="0.83"/>
+    <circle class="cls-1" cx="15.23" cy="4.2" r="0.83"/>
+    <path class="cls-1" d="M46.85,954.52h-9a3.9,3.9,0,0,1-3.9-3.9v-19.4a3.9,3.9,0,0,1,3.9-3.9h9a3.9,3.9,0,0,1,3.9,3.9v19.4A3.9,3.9,0,0,1,46.85,954.52Zm-9-25.4a2.1,2.1,0,0,0-2.1,2.1v19.4a2.1,2.1,0,0,0,2.1,2.1h9a2.1,2.1,0,0,0,2.1-2.1v-19.4a2.1,2.1,0,0,0-2.1-2.1h-9Z" transform="translate(-33.95 -920.92)"/>
+    <rect class="cls-1" x="19.2" y="10.4" width="16" height="1.4"/>
+    <rect class="cls-1" x="19.2" y="13.8" width="16" height="1.4"/>
+    <rect class="cls-1" x="4.8" y="17.4" width="7.6" height="1.4"/>
+    <rect class="cls-1" x="4.8" y="20.8" width="7.6" height="1.4"/>
+    <rect class="cls-1" x="19.2" y="17.2" width="7.6" height="1.4"/>
+  </g>
+</svg>

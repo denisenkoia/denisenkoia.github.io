@@ -1,0 +1,13 @@
+<svg id="lp" xmlns="http://www.w3.org/2000/svg" width="20.13" height="9.87" viewBox="0 0 20.13 9.87">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #910a3d;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>select</title>
+  <polyline class="cls-1" points="0.34 0.37 10 9.19 19.8 0.37"/>
+</svg>

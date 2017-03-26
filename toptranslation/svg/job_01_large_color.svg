@@ -1,0 +1,47 @@
+<svg id="lp" xmlns="http://www.w3.org/2000/svg" width="200" height="168" viewBox="0 0 200 168">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #ffc936;
+      }
+
+      .cls-1 {
+        stroke-width: 9px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 7px;
+      }
+
+      .cls-3 {
+        fill: #910a3d;
+      }
+
+      .cls-4 {
+        stroke: #910a3d;
+      }
+    </style>
+  </defs>
+  <title>job_01_large_color</title>
+  <g>
+    <polyline class="cls-1" points="32.5 32 32.5 4.5 195.5 4.5 195.5 110.5 81 110.5"/>
+    <line class="cls-2" x1="8" y1="61.5" x2="82" y2="61.5"/>
+    <line class="cls-2" x1="6" y1="138.5" x2="80" y2="138.5"/>
+    <line class="cls-2" x1="37" y1="35.5" x2="199" y2="35.5"/>
+    <circle class="cls-3" cx="42.57" cy="150.51" r="4.13"/>
+    <circle class="cls-3" cx="49.49" cy="21" r="4.13"/>
+    <circle class="cls-3" cx="62.58" cy="21" r="4.13"/>
+    <circle class="cls-3" cx="76.13" cy="21" r="4.13"/>
+    <rect class="cls-1" x="4.5" y="36.5" width="75" height="127" rx="15" ry="15"/>
+    <line class="cls-4" x1="96" y1="55.5" x2="176" y2="55.5"/>
+    <line class="cls-4" x1="96" y1="72.5" x2="176" y2="72.5"/>
+    <line class="cls-4" x1="24" y1="90.5" x2="62" y2="90.5"/>
+    <line class="cls-4" x1="24" y1="107.5" x2="62" y2="107.5"/>
+    <line class="cls-4" x1="96" y1="89.5" x2="134" y2="89.5"/>
+  </g>
+</svg>

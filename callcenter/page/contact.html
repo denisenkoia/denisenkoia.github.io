@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>call center</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/clear.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap_grid.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+  <div class="wrapper-footer-bottom">
+    <header>
+      <nav class="wrapper nav" id="nav">
+        <a href="home.html"><img class="page-img" src="../svg/logo.svg" alt=""></a>
+        <a href="home.html"><img class="page-img-01" src="../svg/logo_header.svg"></a>
+        <div id="nav-icon">
+          <span class="nav-page"></span>
+          <span class="nav-page"></span>
+          <span class="nav-page"></span>
+          <span class="nav-page"></span>
+        </div>
+        <div class="nav-bgc page-bgc"></div>
+        <ul class="nav-list page-list">
+          <li class="nav-list-item page-list-item"><a href="products.html">Products</a></li>
+          <li class="nav-list-item page-list-item"><a href="callcenter.html">Call Center</a></li>
+          <li class="nav-list-item page-list-item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="header-page header-callcenter">
+      <div class="wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-10 col-sm-push-1">
+              <div class="row">
+                <h3>Contact Us</h3>
+                <p>00-000-00-00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper content-contactus">
+      <h3>For a free consultation</h3>
+      <div class="wrapper-contactus">
+        <div class="block-form-submit" id="formContactSubmitText">
+          <div><h2 id="formContactSubmitClose">X</h2></div>
+          <img src="../svg/call_center_01.svg">
+          <p>Your message has been sent successfully. <br>Our manager will contact you soon.</p>
+        </div>
+        <form class="form content-contactus-form" id="formContact" onsubmit="formSubmit();return false">
+          <span class="form-alert" id="formname">Enter your name</span>
+          <input type="text" name="name" placeholder="Name:">
+          <span class="form-alert" id="formemail">Enter your email</span>
+          <input type="email" name="email" placeholder="Email:">
+          <span class="form-alert" id="formtel">Enter your phone</span>
+          <input type="tel" name="tel" placeholder="Phone:">
+          <input type="text" name="products" placeholder="Products:">
+          <textarea placeholder="Message:"></textarea>
+          <input type="submit" value="submit" class="form-submit" id="formContactSubmit" readonly>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="wrapper footer-wrapper">
+      <img src="../svg/logo.svg">
+      <ul>
+        <li>00-000-00-00</li>
+        <li>mail@mail.com</li>
+      </ul>
+    </div>
+  </footer>
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript" src="../js/maincontact.js"></script>
+</body>
+</html>

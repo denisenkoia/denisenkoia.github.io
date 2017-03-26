@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+html {
+	min-width: 403px;
+}
+html,
+a {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 20px;
+	color: #333333;
+	font-weight: 300;
+}
+h1 {
+	font-size: 90px;
+	color: #000;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+h3 {
+	font-size: 48px;
+	color: #000;
+	font-weight: 400;
+}
+h4 {
+	font-size: 36px;
+	color: #fff;
+	line-height: 40px;
+	font-weight: 400;
+}
+p {
+	line-height: 32px;
+	font-weight: 300;
+}
+.row {
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+}
+.header ul {
+	padding: 40px 0 15px 0;
+	border-bottom: 8px solid #000;
+	text-align: right;
+}
+.header ul li {
+	line-height: 32px;
+	display: block;
+}
+@media print, screen and (min-width: 40em) {
+		.header ul li {
+		display: inline-block;
+		margin-left: 70px;
+	}
+}
+.about {
+	padding: 130px 0;
+}
+.job-content {
+	padding: 40px 0;
+}
+.job-content .columns {
+	margin-top: 0.9375rem;
+	margin-bottom: 0.9375rem;
+}
+.job-content-wrapper {
+	position: relative;
+	overflow: hidden; 
+}
+.job-content img {
+	width: 100%;
+	vertical-align: middle;
+	transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+.job-content-hover {
+	padding-top: 15%;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	opacity: 0;
+	transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+.job-content-hover p {
+	max-width: 300px;
+	margin: 0 auto;
+	color: #fff;
+	font-weight: 300;
+}
+.job-content-hover h4 {
+	margin-bottom: 5px;
+}
+
+
+.job-content-wrapper a:hover .job-content-hover {
+	opacity: 1;
+}
+.job-content-wrapper a:hover img {
+	transform: matrix(1.1, 0, 0, 1.1, 0, 0);
+}
+@media print, screen and (min-width: 40em) {
+	.job-content-hover {
+		padding-top: 20%;
+	}
+}
+.footer ul {
+	padding: 15px 0 40px 0;
+	border-top: 8px solid #000;
+	text-align: right;
+}
+.footer ul li {
+	line-height: 32px;
+	display: block;
+}
+
+@media print, screen and (min-width: 40em) {
+		.footer ul li {
+		display: inline-block;
+		margin-left: 70px;
+	}
+}

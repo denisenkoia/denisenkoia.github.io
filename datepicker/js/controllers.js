@@ -258,5 +258,10 @@ app.controller('calendar', function($scope){
 		$scope.listdatetime = "";
 		$scope.time = "";
 	}
+	
+	$scope.togle = "open";
+	$scope.open = function () {
+		($scope.togle == "") ? $scope.togle = "open" : $scope.togle = ""
+	}
 
 });

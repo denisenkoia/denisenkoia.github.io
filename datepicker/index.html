@@ -11,12 +11,12 @@
 <body>
 <div class="calendar-wrapper" ng-controller="calendar" ng-init="list">
 	<div>
-		<input type="" name="date-time" ng-model="listdatetime" readonly>
+		<input type="" name="date-time" ng-model="listdatetime" ng-click="open()" placeholder="Выберите дату и время" readonly>
 	</div>
 	<div ng-class="togle" class="calendar-select-wrapper open">
 		<div class="calendar-select">
-			<input type="" name="date" ng-model="list" ng-change="dateuser()">
-			<input type="" name="time" ng-model="time" ng-change="timeuser()">
+			<input type="" name="date" ng-model="list" ng-change="dateuser()" placeholder="Дата">
+			<input type="" name="time" ng-model="time" ng-change="timeuser()" placeholder="Время">
 		</div>
 		<div class="table-wrapper">
 			<div class="table-select-wrapper">

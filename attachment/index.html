@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular-route.min.js"></script>
+		<script src="js/module.js"></script>
+		<script src="js/controller.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/clear.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body ng-app="app">
+		<aside class="sidebar" ng-controller="aside">
+			<h2>Main</h2>
+			<nav ng-class="activeLink">
+				<ul>
+					<li class="overview"><a href="#overview" ng-click="activeLink='overview'">Overview</a></li>
+					<li class="empty"><a href="#" ng-click="activeLink='empty'">Empty</a></li>
+				</ul>
+			</nav>
+		</aside>
+		<div class="content-wrapper" ng-view>
+		</div>
+	</body>
+</html>

@@ -1,45 +1,25 @@
-
 app.controller('aside', function($scope){
+	
 	var host = window.location.hash;
 	if (host.length > 2) {
 		$scope.activeLink = host.slice(2);	
 	}
 	else {
 		$scope.activeLink = "empty";	
-	}	
+	}
+
 })
 
 
+app.controller('overviewItem', function($scope){
 
-
-app.controller('itemtest', function($scope){
-
-	var listItem = document.getElementsByClassName('listItem');
-
-	console.log(listItem);
-	// var itemListActiveLink = 
-	// console.log(itemList);
-	// itemList.style.backgroundColor = "red";
-
-	// $scope.activeLink = "empty";
-	// var host = window.location.hash;
-	// $scope.activeLink = function () {
-		// return "dkm";	
-	// }
-	// if (host.length > 2) {
-		// $scope.activeLink = host.slice(2);	
-	// }
-	// else {
-		// $scope.activeLink = "empty";	
-	// }
-	// $scope.activeLink = host.slice(2);
-	// console.log($scope.activeLink);
-
-	$scope.imgUrl = "avatar.svg"
+	var listItemOpen = document.getElementsByClassName('listItemOpen');
 	var objOverview = {};
 	var itemArr = Object.keys(objOverview);
 	var itemSelect;
-	var ctrl = false;		
+	var ctrl = false;
+	var show = 0;
+
 	$scope.itemArr = itemArr;
 	$scope.objOverview = objOverview;
 
@@ -52,7 +32,6 @@ app.controller('itemtest', function($scope){
 		if (item && itemArr.indexOf(item) < 0) {
 			objOverview[item] = [];
 			$scope.item = "";
-			console.log(listItem);
 		}
 	}
 
@@ -61,20 +40,20 @@ app.controller('itemtest', function($scope){
 			itemSelect = "";
 			$scope.itemCommentsArr = objOverview[itemSelect];
 			$scope.numberItem = "";
+			listItemOpen[show].style.display = "";
+			show = 0;
 		}
 		itemArr.splice(index, 1);
 		delete objOverview[Object.keys(objOverview)[index]];
 	}
 
-	var show = 0;
 	$scope.commentsItem = function (event, index) {
 		itemSelect = event.target.innerHTML; 
 		$scope.itemCommentsArr = objOverview[itemSelect];
 		$scope.numberItem = "#" + (index + 1);
-		listItem[show].style.borderLeft = "";
-		listItem[index].style.borderLeft = "solid 2px red";
+		listItemOpen[show].style.display = "";
+		listItemOpen[index].style.display = "block";
 		show = index;
-		console.log(show);
 	}
 
 	$scope.itemCommentsAdd = function (itemComments) {

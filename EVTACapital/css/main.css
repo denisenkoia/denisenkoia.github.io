@@ -5,6 +5,9 @@ body {
 	background-color: #F6F6F6;
 	font-size: 16px;
 }
+html, input, button {
+	font-family: 'Open Sans', sans-serif;
+}
 
 .lang-list {
 	padding: 10px;
@@ -55,6 +58,8 @@ body {
 	margin-bottom: 10px;
 	outline: none;
 	cursor: pointer;
+	font-size: 16px;
+	line-height: 16px;
 }
 .login-form-wrapper input[type="submit"]:hover {
 	background-color: #E9E9E9;
@@ -79,6 +84,8 @@ body {
 	padding: 5px 20px;
 	cursor: pointer;
 	outline: none;
+	font-size: 16px;
+	line-height: 16px;
 }
 .user-out:hover {
 	background-color: #E9E9E9;

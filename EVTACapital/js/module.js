@@ -16,8 +16,8 @@ app.config(function($routeProvider, $translateProvider) {
 	$translateProvider.translations('en', {
     LOGIN : 'Username',
     PASSWORD : 'Password',
-    SIGNIN: 'Login',
-    LOGOUT: 'Logout',
+    SIGNIN: 'Log In',
+    LOGOUT: 'Log Out',
   });
   $translateProvider.translations('ru', {
     LOGIN : 'Имя пользователя',

@@ -1,143 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/clear.css">
-	<link rel="stylesheet" type="text/css" href="library/foundation_grid.css">
-	<link rel="stylesheet" type="text/css" href="library/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<script type="text/javascript" src="js/libs.min.js"></script>
+	<script type="text/javascript" src="js/module.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
+<body ng-app="app" ng-controller="translate">
+
 	<header class="header">
-		<div class="row">
-			<div class="columns small-12">
-				<ul>
-					<li>+38 096 362 16 04</li>
-					<li><a href="mailto:denisenko.ia1987@gmail.com">denisenko.ia1987@gmail.com</a></li>
-				</ul>
+		<nav class="wrapper header-nav">
+			<div class="header-lang">
+				<button ng-click="changeLng('ru')" ng-class="{'select' : currentLng('ru')}" class="btn-lang">Ru</button>
+				<button ng-click="changeLng('en')" ng-class="{'select' : currentLng('en')}" class="btn-lang">En</button>
 			</div>
-		</div>
+			<div class="header-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul class="header-nav-list">
+				<li class="header-nav-item">
+					<a href="#personalId" class="header-nav-linck">{{ 'PERSONAL' | translate }}</a>
+					<span class="nav-item-line-left"></span>
+					<span class="nav-item-line-right"></span>
+				</li>
+				<li class="header-nav-item">
+					<a href="#skillsId" class="header-nav-linck">{{ 'SKILLS' | translate }}</a>
+					<span class="nav-item-line-left"></span>
+					<span class="nav-item-line-right"></span>
+				</li>
+				<li class="header-nav-item">
+					<a href="#javascriptId" class="header-nav-linck">JavaScript</a>
+					<span class="nav-item-line-left"></span>
+					<span class="nav-item-line-right"></span>
+				</li>
+				<li class="header-nav-item">
+					<a href="#portfolioId" class="header-nav-linck">{{ 'PORTFOLIO' | translate }}</a>
+					<span class="nav-item-line-left"></span>
+					<span class="nav-item-line-right"></span>
+				</li>
+			</ul>
+		</nav>
 	</header>
-	<section class="about">
-		<div class="row">
-			<div class="columns small-12 large-9">
-				<h1>Здравствуйте!</h1>
-				<p>Меня зовут Игорь, я начинающий Front-end Developer. Я работаю с HTML5, CSS3, JavaScript, JQuery, Gulp, Bower, использую препроцессор SASS, фреймворки Bootstrap3 и Foundation. Знаком с технологиями Git, SVG aнимацией, препроцессором Less и SCSS, СМS системами Wordpress и Joomla. Интересуюсь и активно изучаю JavaScript и сопутствующие технологии и фреймворки: AngularJS, AJAX, JSON, ReacJS, NodeJS, JSON, npm. Стараюcь восполнить данную нишу по мере возможноcтей. Также я делаю кроссбраузерную и адаптивную верстку из psd и ai макетов, пишу скрипты JavaScript, AngularJS и плагины JQuery. Прочел много статей и туториалов, регулярно пользуюсь Habrahabr, Github, Codepen, Ruseller, WebReference.</p>
-			</div>
-		</div>
-	</section>
-	<section class="job-header">
-		<div class="row">
-			<div class="columns small-12">
-				<h3>Мои работы</h3>
-			</div>
-		</div>
-	</section>
-	<section class="job-content">
-		<div class="row">
-			<div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-0">
-				<div class="job-content-wrapper">
-					<a href="https://denisenkoia.github.io/callcenter/page/home.html">
-						<img src="img/callcenter.jpg">
-						<div class="job-content-hover">
-							<h4>Callcenter</h4>
-							<p>Адаптивная верстка, HTML5, CSS3, JavaScript, Bootstrap3</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-0">
-				<div class="job-content-wrapper">
-					<a href="https://denisenkoia.github.io/microstore/index.html">
-						<img src="img/microstore.jpg">
-						<div class="job-content-hover">
-							<h4>Microstore</h4>
-							<p>Адаптивная верстка, HTML5, CSS3, JavaScript, Bootstrap3</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-0">
-				<div class="job-content-wrapper">
-					<a href="https://denisenkoia.github.io/holocaust/index.html">
-						<img src="img/holocaust.jpg">
-						<div class="job-content-hover">
-							<h4>Мемориальный<br>Кинофестиваль</h4>
-							<p>Адаптивная верстка, HTML5, CSS3, JavaScript, Foundation</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-0">
-				<div class="job-content-wrapper">
-					<a href="https://denisenkoia.github.io/toptranslation/index.html">
-						<img src="img/toptranslation.jpg">
-						<div class="job-content-hover">
-							<h4>Babylon</h4>
-							<p>Адаптивная верстка, HTML5, CSS3, JavaScript, Foundation</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-0">
-				<div class="job-content-wrapper">
-					<a href="https://denisenkoia.github.io/datepicker/index.html">
-						<img src="img/datepiccer.jpg">
-						<div class="job-content-hover">
-							<h4>Datepicker</h4>
-							<p>HTML5, CSS3, JavaScript, AngularJS</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-0">
-				<div class="job-content-wrapper">
-					<a href="https://denisenkoia.github.io/attachment">
-						<img src="img/attachment.jpg">
-						<div class="job-content-hover">
-							<h4>Attachment</h4>
-							<p>HTML5, CSS3, JavaScript, AngularJS</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-0">
-				<div class="job-content-wrapper">
-					<a href="https://denisenkoia.github.io/templateEmail">
-						<img src="img/templateEmail.jpg">
-						<div class="job-content-hover">
-							<h4>HTML письмо</h4>
-							<p>HTML5,inline CSS3</p>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="columns small-12 medium-10 medium-offset-1 large-6 large-offset-0">
-				<div class="job-content-wrapper">
-					<a href="https://denisenkoia.github.io/beforeAfterSlider">
-						<img src="img/beforeAfterSlider.jpg">
-						<div class="job-content-hover">
-							<h4>Сдайдер before-after</h4>
-							<p>HTML5, CSS3, JQuery</p>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer class="footer">
-		<div class="row">
-			<div class="columns small-12">
-				<ul>
-					<li>+38 096 362 16 04</li>
-					<li><a href="mailto:denisenko.ia1987@gmail.com">denisenko.ia1987@gmail.com</a></li>
+
+	<main>
+
+		<div class="wrapper personal" id="personalId">
+			<h4>{{ 'PERSONAL' | translate }}</h4>
+			<div class="personal-header">
+				<img class="pesonal-img" src="img/photo.jpg" alt="photo">
+				<ul class="personal-informathion">
+					<li>{{ 'FIO' | translate }}</li>
+					<li>email: <a href="mailto:denisenko.ia1987@gmail.com">denisenko.ia1987@gmail.com</a></li>
+					<li>skype: denisenko.ia</li>
+					<li>{{ 'PHONE' | translate }}: +380963621604</li>
 				</ul>
 			</div>
+			<p>{{ 'ABOUTMY' | translate }}</p>
+		</div>
+
+		<div class="wrapper inform-row skills" id="skillsId">
+			<img class="inform-icon" src="img/icon_01.png" alt="icon">
+			<h4>{{ 'SKILLS' | translate }}</h4>
+			<div class="skills-wrapper">
+				<ul class="skills-list">
+					<li class="skills-item">HTML5</li>
+					<li class="skills-item">CSS3</li>
+					<li class="skills-item">JavaScript</li>
+					<li class="skills-item">JQuery</li>
+					<li class="skills-item">SASS/SCSS</li>
+					<li class="skills-item">Gulp</li>
+				</ul>
+				<ul class="skills-list">
+					<li class="skills-item">Bower</li>
+					<li class="skills-item">Bootstrap</li>
+					<li class="skills-item">Foundation</li>
+					<li class="skills-item">AngularJs</li>
+					<li class="skills-item">AJAX</li>
+					<li class="skills-item">JSON</li>
+				</ul>
+				<ul class="skills-list">
+					<li class="skills-item">NodeJs</li>
+					<li class="skills-item">npm</li>
+					<li class="skills-item">SVG</li>
+					<li class="skills-item">Canvas</li>
+					<li class="skills-item">Wordpress</li>
+					<li class="skills-item">Joomla</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="wrapper inform-row javascript" id="javascriptId">
+			<img class="inform-icon" src="img/icon_02.png" alt="icon">
+			<h4>{{ 'KNOWLEDGE' | translate }}</h4>
+			<div class="javascript-list-item">
+				<span class="javascript-item">{{ 'NOTSPEAK' | translate }}</span>
+				<span class="javascript-item">{{ 'USEREADY' | translate }}</span>
+				<span class="javascript-item">{{ 'COMPLEXJS' | translate }}</span>
+			</div>
+			<div class="javascript-slider" id="slider">
+				<svg class="slider-line" viewBox="0 0 768 14" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+					<polygon points="0, 11, 768, 0, 768, 14, 0, 14" fill="#c8c8c8"></polygon>
+				</svg>
+				<svg class="slider-line" viewBox="0 0 768 14" preserveAspectRatio="none" id="slider-line" version="1.1" xmlns="http://www.w3.org/2000/svg">
+					<defs>
+						<linearGradient id="gradient" x1="0%" x2="100%" y1="0%" y2="0%">
+        			<stop offset="0%" stop-color="#ccb1f1"></stop>
+        			<stop offset="100%" stop-color="#435993"></stop>
+      			</linearGradient>
+					</defs>
+					<polygon points="0, 11, 768, 0, 768, 14, 0, 14" fill="url(#gradient)"></polygon>
+				</svg>
+				<div class="slider-control" id="control">
+				</div>
+			</div>
+		</div>
+
+		<div class="wrapper inform-row portfolio" id="portfolioId">
+			<img class="inform-icon" src="img/icon_03.png" alt="icon">
+			<h4>{{ 'PORTFOLIO' | translate }}</h4>
+			<div class="portfolio-item-wrapper">
+				<div class="portfolio-item">
+					<a href="https://denisenkoia.github.io/beforeAfterSlider"><img src="img/beforeAfterSlider.jpg" alt="img"></a>
+				</div>
+				<div class="portfolio-item">
+					<a href="https://denisenkoia.github.io/callcenter/page/home.html"><img src="img/callcenter.jpg" alt="img"></a>
+				</div>
+				<div class="portfolio-item">
+					<a href="https://denisenkoia.github.io/microstore/index.html"><img src="img/microstore.jpg" alt="img"></a>
+				</div>
+				<div class="portfolio-item">
+					<a href="https://denisenkoia.github.io/holocaust/index.html"><img src="img/holocaust.jpg" alt="img"></a>
+				</div>
+				<div class="portfolio-item">
+					<a href="https://denisenkoia.github.io/toptranslation/index.html"><img src="img/toptranslation.jpg" alt="img"></a>
+				</div>
+				<div class="portfolio-item">
+					<a href="https://denisenkoia.github.io/datepicker/index.html"><img src="img/datepiccer.jpg" alt="img"></a>
+				</div>
+				<div class="portfolio-item">
+					<a href="https://denisenkoia.github.io/attachment"><img src="img/attachment.jpg" alt="img"></a>
+				</div>
+				<div class="portfolio-item">
+					<a href="https://denisenkoia.github.io/templateEmail"><img src="img/templateEmail.jpg" alt="img"></a>
+				</div>
+			</div>
+		</div>
+	</main>
+	
+	<footer class="footer">
+		<div class="wrapper">
+			<p>+380963621604<a href="mailto:denisenko.ia1987@gmail.com">denisenko.ia1987@gmail.com</a></p>
 		</div>
 	</footer>
-	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

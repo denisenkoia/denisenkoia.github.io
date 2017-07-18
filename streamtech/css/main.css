@@ -1,0 +1,146 @@
+/*---main.css----*/
+@charset "utf-8";
+
+/*---fonts----*/
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; 
+}
+
+/*--------global--------*/
+
+body,
+* {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #1f3654;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 600px;
+	min-width: 320px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+/*--------form--------*/
+
+.sign_form {
+	margin: 50px 0;
+}
+
+.form_title {
+  font-size: 28px;
+  line-height: 38px;
+  margin-bottom: 19px;
+}
+
+.form_description {
+	font-weight: 300;
+	margin-bottom: 60px;
+}
+
+.input_wrapper {
+	margin: 44px 0;
+	position: relative;
+}
+
+.input_wrapper::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: 1px;
+	display: block;
+	width: 28px;
+	height: 38px;
+}
+
+.form_input {
+	display: block;
+	width: 100%;
+	padding: 8px 28px 8px 0;
+	border: none;
+	border-bottom: 1px solid #1f3654;
+	outline: none;
+}
+
+.form_input::placeholder {
+	color: #88a6b0;
+}
+
+.form_input:focus ~ .form_tooltip,
+.form_input:focus ~ .form_clear {
+	display: block;
+}
+
+.form_input:focus::placeholder {
+	color: transparent;
+}
+
+.form_tooltip {
+	display: none;
+	font-size: 12px;
+	line-height: 17px;
+	color: #88a6b0;
+	position: absolute;
+	top: -17px;
+	left: 0;
+}
+
+.form_clear {
+	display: none;
+	position: absolute;
+	right: 8px;
+	bottom: 13px;
+	cursor: pointer;
+	z-index: 5;
+}
+
+.btn {
+	display: block;
+	width: 100%;
+	max-width: 339px;
+	height: 50px;
+	font-weight: 600;
+	margin: 47px auto;
+	border: none;
+	border-radius: 25px;
+	box-shadow: 0 2px 8px 0 rgba(222,173,189,1);
+	background-color: #F33573;
+	cursor: pointer;
+	outline: none;
+}
+
+.btn_text {
+	color: #fff;
+	opacity: 0.8;
+}
+
+.btn:hover {
+	background-color: #FF3E7D;
+	box-shadow: 0 4px 11px 0 rgba(222,173,189,1);
+}
+
+.btn:hover > .btn_text {
+	opacity: 1;
+}

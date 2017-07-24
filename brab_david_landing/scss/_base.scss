@@ -1,0 +1,133 @@
+
+/*--------fonts---------*/
+
+@font-face {
+	font-family: 'PTSans';
+	src: url('../fonts/PT_Sans/PT_Sans-Web-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSans';
+	src: url('../fonts/PT_Sans/PT_Sans-Web-Bold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fregat';
+	src: url('../fonts/fregat/Fregat_bold.otf') format("opentype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fregat';
+	src: url('../fonts/fregat/Fregat_regular.otf') format("opentype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+/*--------global--------*/
+
+*, html, body {
+	font-family: $font-text;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+html, body {
+	min-width: 320px;
+}
+
+.body-wrapper {
+	max-width: 1360px;
+	margin: 0 auto;
+}
+
+.caption {
+	font-family: $font-caption;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 38px;
+	color: $grass;
+	text-align: center;
+}
+
+h3 {
+	font-size: 28px;
+	line-height: 34px;
+	color: $grass;
+}
+
+h4 {
+	font-size: 24px;
+	line-height: 29px;
+	color: $grass;
+}
+
+h5 {
+	font-size: 20px;
+	line-height: 25px;
+	color: $white;
+}
+
+h6 {
+	font-family: $font-text;
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: 600;
+	color: $white;
+	text-transform: uppercase;
+}
+
+/*--------components modificator--------*/
+
+.btn {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 12px 40px;
+	border-radius: 3px;
+	transition-property: color, background-color;
+	transition-duration: 0.3s;
+}
+
+.text__height {
+	font-size: 19px;
+	line-height: 28px;
+	margin: 25px 0;
+}
+
+.text__small {
+	font-size: 15px;
+	line-height: 18px;
+	margin: 25px 0;
+}
+
+.taxt-align__center {
+	text-align: center;
+}
+
+.color__greyish-brown {
+	color: $greyish-brown;
+}
+.color__warm-grey {
+	color: $warm-grey;
+}
+.color__black {
+	color: $black;
+}
+
+.color__white {
+	color: $white;
+}
+
+.color__grass {
+	color: $grass;
+}

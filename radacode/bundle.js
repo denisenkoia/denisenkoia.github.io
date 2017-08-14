@@ -9268,8 +9268,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 __WEBPACK_IMPORTED_MODULE_6_angular___default.a.module('app', [__WEBPACK_IMPORTED_MODULE_7_angular_ui_router___default.a, __WEBPACK_IMPORTED_MODULE_5__app_app_viewPage__["a" /* appViewPage */].name]).config(function ($locationProvider) {
 	$locationProvider.html5Mode({
-		enabled: true,
-		requireBase: false
+		// enabled: true,
+		// requireBase: false
 	});
 }).run(function ($rootScope) {
 	$rootScope.COMPONENT_VISIBL = "component-visible";

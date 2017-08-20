@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 31">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #585858;
+        stroke-miterlimit: 10;
+      }
+      .cls-2 {
+        fill: #585858;
+      }
+    </style>
+  </defs>
+  <g>
+    <line class="cls-1" x1="3" y1="3" x2="253" y2="28"/>
+    <circle class="cls-2" cx="3" cy="3" r="3"/>
+    <circle class="cls-2" cx="253" cy="28" r="3"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5d030;
+      }
+    </style>
+  </defs>
+  <title>facebook_hover</title>
+  <g id="Слой_1-2" data-name="Слой 1-2">
+    <path class="cls-1" d="M3,8H0v4H3V24H8V12h3.6L12,8H8V6.3C8,5.3,8.2,5,9.1,5H12V0H8.2C4.6,0,3,1.6,3,4.6V8Z" transform="translate(0 0)"/>
+  </g>
+</svg>

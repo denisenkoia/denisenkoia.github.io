@@ -1,0 +1,13 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>linkedin</title>
+  <g id="Слой_1-2" data-name="Слой 1">
+    <path class="cls-1" d="M93.25,11a2.5,2.5,0,1,1-2.5-2.5A2.47572,2.47572,0,0,1,93.25,11Zm0,4.5h-5v16h5v-16Zm8,0h-5v16h5V23.1c0-4.7,6-5.1,6,0v8.4h5V21.4c0-7.9-8.9-7.6-11-3.7V15.5Z" transform="translate(-88.25 -8.5)"/>
+  </g>
+</svg>

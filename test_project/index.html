@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./jquery.fancybox.min.css">
+</head>
+<body>
+
+<a href="img_01.jpg" class="test-link" data-fancybox="group">
+    <img src="img.png" alt="" />
+</a>
+<a href="img_02.jpg" class="test-link" data-fancybox="group">
+    <img src="img.png" alt="" />
+</a>
+<a href="img_03.jpg" class="test-link" data-fancybox="group">
+    <img src="img.png" alt="" />
+</a>
+<a href="test.mp4" class="test-link" data-fancybox="group">
+    <img src="img.png" alt="" />
+</a>
+<a href="test-video.avi" class="test-link" data-fancybox="group">
+    <img src="img.png" alt="" />
+</a>
+
+
+<a id="play" href="test.mp4" style="display: block; width: 560px; height: 315px;"></a>
+<!--<a href="img_02.jpg" class="test-link" data-fancybox="group">-->
+    <!--<img src="img.png" alt="" />-->
+<!--</a>-->
+<!--<a href="img_03.jpg" class="test-link" data-fancybox="group">-->
+    <!--<img src="img.png" alt="" />-->
+<!--</a>-->
+
+
+<!--<video src="test.mp4" controls="controls"></video>-->
+
+
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="flowplay/flowplayer-3.2.2.min.js"></script>
+<script src="./jquery.fancybox.min.js"></script>
+
+<script type="text/javascript">
+    console.log("test");
+    $(document).ready(function () {
+       $(".test-link").fancybox({
+           afterShow: function (item, slide) {
+               if (/\.avi$/i.test(slide.src)) {
+                   var src = slide.src;
+                   $(".fancybox-error").html("<video src='" + src + "' controls></video>");
+
+               }
+               else {
+                   var src = slide.src;
+                   $(".fancybox-error").html("<a id='player' href='" + src + "'></a>");
+                   flowplayer("player",  "flowplay/flowplayer-3.2.2.swf",
+                       {
+                           clip: {
+                               autoPlay: false,
+                               autoBuffering: true
+                           }
+                       });
+               }
+               console.dir(slide);
+//               var src = slide.src;
+//               $(".fancybox-error").html("<a id='player' href='" + src + "'></a>");
+//               flowplayer("player",  "flowplay/flowplayer-3.2.2.swf",
+//                   {
+//                       clip: {
+//                           autoPlay: false,
+//                           autoBuffering: true
+//                       }
+//                   });
+           }
+       });
+//        flowplayer("play",  "flowplay/flowplayer-3.2.2.swf",
+//            {
+//                clip: {
+//                    autoPlay: false,
+//                    autoBuffering: true
+//                }
+//            });
+        });
+
+
+
+</script>
+</body>
+</html>

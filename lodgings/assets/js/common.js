@@ -23355,7 +23355,7 @@ var render = function() {
                     _c("a", { attrs: { href: lodgings.url } }, [
                       _c("img", {
                         attrs: {
-                          src: "/assets/img/" + lodgings.img,
+                          src: "./assets/img/" + lodgings.img,
                           alt: "img"
                         }
                       }),

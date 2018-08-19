@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home page</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+</head>
+
+<body class="body ">
+    <!-- sidebar -->
+    <section class="sidebar-burger-mobile">
+        <div class="sidebar-burger-wrapper">
+            <img class="burger-white" src="./assets/img/burger-white.svg">
+            <img class="burger-extra" src="./assets/img/burger-extra.svg">
+        </div>
+    </section>
+    <section class="sidebar">
+        <div class="sidebar-container-nav">
+            <div class="close-sidebar-mobile">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="sidebar-logo">
+                <a href="./index.html">
+                <img src="./assets/img/sidebar-logo.svg" alt="logo">
+            </a>
+            </div>
+            <ul class="sidebar-nav">
+                <li><a class="active" href="./index.html">Головна</a></li>
+                <li>
+                    <div class="sidebar-nav-item-title">
+                        <a href="./about.html" class="sidebar-nav-item-title-open-body">Про препарат</a>
+                        <a href="#" class="link-icon">
+                        <i class="line"></i>
+                    </a>
+                    </div>
+                    <div class="sidebar-nav-item-body">
+                        <div class="sidebar-nav-item-body-link">
+                            <a href="./product-almagel.html">Альмагель</a>
+                            <a href="./product-almagelA.html">Альмагель А</a>
+                            <a href="./product-almagelNeo.html">Альмагель Нео</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="./all-articles.html">Статті</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+            </ul>
+            <div class="sidebar-link-container">
+                <div class="btn-buy-wrapper">
+                    <a href="./buy.html" class="btn btn-orange"><span>Де купити</span></a>
+                </div>
+                <div class="link-question-wrapper">
+                    <a href="#" class="btn-open-popup">
+                    <img src="./assets/img/icon-chat.svg" alt="icon">
+                    <span>Задати питання</span>
+                </a>
+                </div>
+                <ul class="link-language-wrapper">
+                    <li><a class="active" href="#">Укр</a></li>
+                    <li><a href="#">Рус</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="modal-popup-help-container">
+        <div class="modal-popup-help-wrapper">
+            <button class="close-modal-popup-help close-modal-popup"></button>
+            <form class="form-help" action="#" method="post">
+                <h3>Задати питання</h3>
+                <div class="input-wrapper">
+                    <div class="input-tooltip">Ваше ім'я</div>
+                    <input class="form-required" type="text" name="userName" placeholder="Марія Нестеренко">
+                </div>
+                <div class="input-wrapper">
+                    <div class="input-tooltip">Телефон</div>
+                    <input class="form-required" type="text" name="userPhone" placeholder="+380__________">
+                </div>
+                <div class="input-wrapper">
+                    <div class="input-tooltip">E-mail</div>
+                    <input class="form-required" type="text" name="userEmail" placeholder="example@example.com">
+                </div>
+                <div class="textarea-wrapper">
+                    <div class="input-tooltip">Повідомлення</div>
+                    <textarea class="form-required" name="userMessage" placeholder="Напішіть Ваше запитання тут"></textarea>
+                </div>
+                <input type="submit" style="display: none">
+                <a class="btn btn-large btn-orange form-help-submit" id="formHelpSubmit"><span>Надіслати</span></a>
+            </form>
+            <div class="submit-message-wrapper">
+                <h3>Задати питання</h3>
+                <div class="submit-message-text">Наші представники вже вивчають ваше запитання і найближчим часом зв'яжуться з вами.</div>
+                <div class="submit-message-text">А поки що перегляньте розділ FAQ. Можливо там ви знайдете потрібну інформацію.</div>
+                <a href="./faq.html" class="btn btn-extra-large btn-orange"><span>Перейти у розділ FAQ</span></a>
+            </div>
+        </div>
+    </section>
+    <!-- end sidebar -->
+    <!-- content -->
+    <section class="container page-home">
+        <div class="page-home-block-01">
+            <div class="block-container">
+                <div class="block-description-wrapper">
+                    <h1>Алмагель</h1>
+                    <h4>Збалансована допомога<br>від печії, болю та здуття<sup>1</sup>!</h4>
+                    <div class="btn-container">
+                        <a href="./buy.html" class="btn btn-large btn-white"><span>Купити</span></a>
+                        <a href="#" class="btn btn-large btn-white-border"><span>Інструкція</span></a>
+                    </div>
+                    <a href="#block2" class="screen-down-link" id="scrollLink"></a>
+                </div>
+                <div class="bg-parallax-img-wrapper">
+                    <div class="parallax-img-wrapper">
+                        <img class="parallax-img" src="./assets/img/bg-img-circle-01.png" alt="img">
+                    </div>
+                    <div class="parallax-img-wrapper">
+                        <img class="parallax-img" src="./assets/img/bg-img-circle-02.png" alt="img">
+                    </div>
+                    <div class="parallax-img-wrapper">
+                        <img class="parallax-img" src="./assets/img/bg-img-circle-03.png" alt="img">
+                    </div>
+                </div>
+                <div class="block-img-abs-wrapper">
+                    <img src="./assets/img/img-01.png" alt="img">
+                </div>
+                <div class="page-info-text">ALMG-UA-00040 Термін дії матеріалу до 22.12.2019.</div>
+            </div>
+        </div>
+        <div class="page-home-block-02" id="block2">
+            <div class="block-container">
+                <div class="block-product-wrapper active-item-1">
+                    <a class="product-item" data-active-block=".product-modal-item_01">
+                        <h4 class="product-title">Алмагель<i>&reg;</i></h4>
+                        <div class="product-preview">
+                            <div class="product-img">
+                                <img src="./assets/img/products/product-01.png" alt="product">
+                            </div>
+                            <div class="product-use">
+                                <div class="product-use-item">
+                                    <img src="./assets/img/products/icon-product-01.svg" alt="use">
+                                    <div class="icon-use-description">Від печії<sup>2</sup></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-bottom-arrow">
+                            <img src="./assets/img/icon-arrow.svg">
+                        </div>
+                    </a>
+                    <a class="product-item" data-active-block=".product-modal-item_02">
+                        <h4 class="product-title">Алмагель А<i>&reg;</i></h4>
+                        <div class="product-preview">
+                            <div class="product-img">
+                                <img src="./assets/img/products/product-02.png" alt="product">
+                            </div>
+                            <div class="product-use">
+                                <div class="product-use-item">
+                                    <img src="./assets/img/products/icon-product-02.svg" alt="use">
+                                    <div class="icon-use-description">Від печії<sup>3</sup></div>
+                                </div>
+                                <div class="product-use-item">
+                                    <img src="./assets/img/products/icon-product-03.svg" alt="use">
+                                    <div class="icon-use-description">Від болю<sup>3</sup></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-bottom-arrow">
+                            <img src="./assets/img/icon-arrow.svg">
+                        </div>
+                    </a>
+                    <a class="product-item" data-active-block=".product-modal-item_03">
+                        <h4 class="product-title">Алмагель Нео<i>&reg;</i></h4>
+                        <div class="product-preview">
+                            <div class="product-img">
+                                <img src="./assets/img/products/product-03.png" alt="product">
+                            </div>
+                            <div class="product-use">
+                                <div class="product-use-item">
+                                    <img src="./assets/img/products/icon-product-04.svg" alt="use">
+                                    <div class="icon-use-description">Від печії<sup>4</sup></div>
+                                </div>
+                                <div class="product-use-item">
+                                    <img src="./assets/img/products/icon-product-05.svg" alt="use">
+                                    <div class="icon-use-description">Від вздуття<sup>4</sup></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-bottom-arrow">
+                            <img src="./assets/img/icon-arrow.svg">
+                        </div>
+                    </a>
+                    <div class="product-modal-block">
+                        <div class="product-modal-item product-modal-item_01">
+                            <div class="product-modal-preview-title">Алмагель</div>
+                            <div class="product-modal-item-container">
+                                <h2 class="product-modal-title">Алмагель<i>&reg;</i></h2>
+                                <h4 class="product-modal-description">Знеболення вже через<br>1-2 хвилини<sup>3</sup></h4>
+                                <a href="./product-almagel.html" class="btn btn-extra-large btn-white">Дізнатись Більше</a>
+                                <img src="./assets/img/products/product-modal-01.png">
+                            </div>
+                            <button class="close-modal-block"></button>
+                        </div>
+                        <div class="product-modal-item product-modal-item_02">
+                            <div class="product-modal-preview-title">Алмагель А</div>
+                            <div class="product-modal-item-container">
+                                <h2 class="product-modal-title">Алмагель А<i>&reg;</i></h2>
+                                <h4 class="product-modal-description">Знеболення вже через<br>1-2 хвилини<sup>3</sup></h4>
+                                <a href="./product-almagelA.html" class="btn btn-extra-large btn-white">Дізнатись Більше</a>
+                                <img src="./assets/img/products/product-modal-01.png">
+                            </div>
+                            <button class="close-modal-block"></button>
+                        </div>
+                        <div class="product-modal-item product-modal-item_03">
+                            <div class="product-modal-preview-title">Алмагель Нео</div>
+                            <div class="product-modal-item-container">
+                                <h2 class="product-modal-title">Алмагель Нео<i>&reg;</i></h2>
+                                <h4 class="product-modal-description">Знеболення вже через<br>1-2 хвилини<sup>3</sup></h4>
+                                <a href="./product-almagelNeo.html" class="btn btn-extra-large btn-white">Дізнатись Більше</a>
+                                <img src="./assets/img/products/product-modal-01.png">
+                            </div>
+                            <button class="close-modal-block"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-nav-mobile hide-desktop">
+                    <ul class="product-nav-mobile-list">
+                        <li><a class="active" href="#" data-active-item="active-item-1">Алмагель</a></li>
+                        <li><a href="#" data-active-item="active-item-2">Алмагель А</a></li>
+                        <li><a href="#" data-active-item="active-item-3">Алмагель Нео</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="page-home-block-03">
+            <div class="block-container">
+                <div class="page-home-block-03-content">
+                    <h2>Що впливає на<br>шлунок?</h2>
+                    <div class="block-info-icon-container">
+                        <div class="block-info-icon-wrapper">
+                            <img src="./assets/img/icon-img-01.png">
+                            <div class="info-icon-description">Неправильне<br>харчування<sup>5</sup></div>
+                        </div>
+                        <div class="block-info-icon-wrapper">
+                            <img src="./assets/img/icon-img-02.png">
+                            <div class="info-icon-description">Шкідливі<br>звички<sup>5</sup></div>
+                        </div>
+                        <div class="block-info-icon-wrapper">
+                            <img src="./assets/img/icon-img-03.png">
+                            <div class="info-icon-description">Життя у стресі<sup>5</sup></div>
+                        </div>
+                        <div class="block-info-icon-wrapper">
+                            <img src="./assets/img/icon-img-04.png">
+                            <div class="info-icon-description">Серйозні фізичні<br>навантаження<sup>5</sup></div>
+                        </div>
+                    </div>
+                    <div class="btn-container">
+                        <a href="#" class="btn btn-extra-large btn-orange btn-open-popup"><span>Допомога</span></a>
+                    </div>
+                </div>
+                <div class="bg-parallax-img-wrapper">
+                    <div class="parallax-img-wrapper">
+                        <img class="parallax-img" src="./assets/img/bg-img-circle-04.png" alt="img">
+                    </div>
+                    <div class="parallax-img-wrapper">
+                        <img class="parallax-img" src="./assets/img/bg-img-circle-05.png" alt="img">
+                    </div>
+                    <div class="parallax-img-wrapper">
+                        <img class="parallax-img" src="./assets/img/bg-img-circle-06.png" alt="img">
+                    </div>
+                </div>
+                <div class="block-img-abs-wrapper">
+                    <img class="hide-mobile" src="./assets/img/img-02.png" alt="img">
+                    <img class="hide-desktop" src="./assets/img/img-02_mobile.png" alt="img">
+                </div>
+            </div>
+        </div>
+        <div class="page-home-block-04">
+            <div class="block-container">
+                <h3>Чому Алмагель?</h3>
+                <div class="block-slider-comments">
+                    <div class="slide-comments-wrapper">
+                        <h5 class="slide-comments-title">Має швидку та тривалу дію компонентів<sup>5</sup> від печії</h5>
+                        <div class="slide-comments-description">Завдяки Магнію препарати діють швидко,<sup>5</sup> а Алюміній забезпечує тривалість дії.<sup>5</sup></div>
+                    </div>
+                    <div class="slide-comments-wrapper">
+                        <h5 class="slide-comments-title">Не викликає «кислотний рикошет» (повторну печію)<sup>7</sup></h5>
+                        <div class="slide-comments-description">Алмагель не містить карбонат натрію, тому печія не повертається після завершення дії препарату.<sup>7</sup></div>
+                    </div>
+                    <div class="slide-comments-wrapper">
+                        <h5 class="slide-comments-title">Має захисний ефект на слизову оболонку шлунка<sup>3.6</sup></h5>
+                        <div class="slide-comments-description">Магній у складі Алмагелю створює захисну плівку на слизовій шлунку.<sup>3.6</sup></div>
+                    </div>
+                    <div class="slide-comments-wrapper">
+                        <h5 class="slide-comments-title">Не викликає «кислотний рикошет» (повторну печію)<sup>7</sup></h5>
+                        <div class="slide-comments-description">Алмагель не містить карбонат натрію, тому печія не повертається після завершення дії препарату.<sup>7</sup></div>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <a href="./buy.html" class="btn btn-large btn-orange"><span>Де купити</span></a>
+                    <a href="#" class="btn btn-large btn-orange-border"><span>Інструкція</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="page-home-block-05 hide-mobile">
+            <div class="block-container">
+                <div class="block-bottom-information">
+                    <ul>
+                        <li>Препарати Алмагель®, Алмагель ® А, Алмагель ® Нео (Алмагель – від печії, Алмагель А – від печії та болю, Алмагель Нео - від печії, здуття і дискомфорту згідно інструкції для медичного застосування лікарських засобів Алмагель®,
+                            Алмагель ® А, Алмагель ® Нео</li>
+                        <li>Згідно з інструкцією для медичного застосування лікарського засобу Алмагель®</li>
+                        <li>Згідно з інструкцією для медичного застосування лікарського засобу Алмагель® А</li>
+                        <li>Згідно з інструкцією для медичного застосування лікарського засобу Алмагель® Нео</li>
+                        <li>Самсонов А.А. Лежнева Ю.А. Павлеева Е.Е. - Современная терапия кислотозависимых заболеваний.Медицинский совет №13.2014 6-9</li>
+                        <li>Топчий Н.В. Топорков А.С. - Ренессанс антацидов - надежная помощь врачу общей практики. 2016</li>
+                        <li>Кляритская И.Л. Цапяк Т.А. - Современные антацидные препараты в практике врача-интерниста. КМТ№2. 2008 31-34</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end content -->
+    <!-- footer -->
+    <div class="footer footer-top">
+        <div class="footer-warning-text">
+            <img class="hide-mobile" src="./assets/img/warning-text_desktop.png">
+            <img class="hide-desktop" src="./assets/img/warning-text_mobile.png">
+        </div>
+    </div>
+    <div class="footer footer-bottom">
+        <div class="footer-warning-description">Реклама лікарського засобу. Перед застосуванням обов'язково ознайомтеся з інструкцією для медичного застосування та проконсультуйтеся з лікарем. Протипоказання та можливі побічні ефекти наведені в інструкції для медичного застосування препарату.
+            Алмагель. Код АТС А02AD01. РП МОЗ України № UA/3264/01/01 від 30.04.2015 . Алмагель А. Код АТС А02АВ10. РП МОЗ України № UA/0879/01/01 від 16.06.2014. Алмагель Нео. Код АТС А02АF02. РП МОЗ України № UA/7938/01/01 від 22.03.2013. Відпускається
+            в аптеках та їх структурних підрозділах без рецепта. Зберігати в недоступному для дітей місці. Виробник: Балканфарма-Троян АТ. Болгарія, 5600 Троян, вул. Крайречна, №1. Представник заявника: ООО «Тева Україна» Україна,  пр-т П.Тичини, 1-В,
+            9 пов., м. Київ,02140. www.teva.ua.</div>
+    </div>
+    <!-- end footer -->
+    <!-- scripts -->
+    <script type="text/javascript" src="./assets/js/common.js"></script>
+    <!-- end script -->
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 61 61" style="enable-background:new 0 0 61 61;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#t2eja_1_);}
+	.st1{fill:#FFFFFF;fill-opacity:0;stroke:#4DB748;stroke-miterlimit:50;}
+</style>
+<g>
+	<g transform="translate(-1019 -898)">
+	</g>
+	<g transform="translate(-1019 -898)">
+		<g>
+			
+				<linearGradient id="t2eja_1_" gradientUnits="userSpaceOnUse" x1="2061.5852" y1="19.287" x2="2075.0552" y2="44.957" gradientTransform="matrix(1 0 0 -1 -1019 961)">
+				<stop  offset="0" style="stop-color:#4DB748"/>
+				<stop  offset="1" style="stop-color:#9BE15D"/>
+			</linearGradient>
+			<path id="t2eja" class="st0" d="M1050.5,916.7l10.5,4.7v7c0,6.5-4.5,12.5-10.5,14c-6-1.5-10.5-7.5-10.5-14v-7L1050.5,916.7z
+				 M1048.2,935.3l9.3-9.3l-1.7-1.7l-7.7,7.7l-3-3l-1.6,1.6L1048.2,935.3z"/>
+		</g>
+	</g>
+	<g transform="translate(-1019 -898)">
+		<g>
+			<path id="t2ejc" class="st1" d="M1019.5,928.5c0-16.6,13.4-30,30-30s30,13.4,30,30s-13.4,30-30,30S1019.5,945.1,1019.5,928.5z"/>
+		</g>
+	</g>
+</g>
+</svg>

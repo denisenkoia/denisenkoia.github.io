@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 61 61" style="enable-background:new 0 0 61 61;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#qhnda_1_);}
+	.st1{fill:#FFFFFF;fill-opacity:0;stroke:#F7931E;stroke-miterlimit:50;}
+</style>
+<linearGradient id="qhnda_1_" gradientUnits="userSpaceOnUse" x1="521.5189" y1="-876.4701" x2="508.6889" y2="-853.1401" gradientTransform="matrix(-1 0 0 -1 546.0099 -835)">
+	<stop  offset="0" style="stop-color:#FF9C28"/>
+	<stop  offset="1" style="stop-color:#FCCC5B"/>
+</linearGradient>
+<path id="qhnda" class="st0" d="M38.5,22c0.9,0,1.8,0.6,2.1,1.4l3.5,8.2c0.1,0.3,0.2,0.5,0.2,0.8v2.2l0,0l0,0.1c0,1.3-1,2.3-2.3,2.3
+	h-7.4l1.1,5.3l0,0.4c0,0.5-0.2,0.9-0.5,1.2L34,45.3l-7.7-7.7c-0.4-0.4-0.7-1-0.7-1.7V24.3c0-1.3,1.1-2.3,2.3-2.3L38.5,22z M23.3,36
+	h-4.7V22h4.7V36z"/>
+<path id="qhndc" class="st1" d="M0.5,30.5c0-16.6,13.4-30,30-30s30,13.4,30,30s-13.4,30-30,30S0.5,47.1,0.5,30.5z"/>
+</svg>
